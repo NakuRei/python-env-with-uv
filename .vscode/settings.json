@@ -1,0 +1,20 @@
+{
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "python.analysis.inlayHints.callArgumentNames": "all",
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.variableTypes": true,
+  "python.analysis.inlayHints.pytestParameters": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "ruff.path": ["uv", "run", "ruff"],
+  "mypy-type-checker.path": ["uv", "run", "mypy"],
+  "mypy-type-checker.importStrategy": "fromEnvironment"
+}

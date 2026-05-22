@@ -64,7 +64,7 @@ indent-style = "space"
 line-ending = "lf"
 
 [tool.mypy]
-python_version = 3.14
+python_version = "3.14"
 ignore_missing_imports = true
 disallow_any_generics = true
 disallow_subclassing_any = true
